@@ -1,7 +1,13 @@
 OptionalChaining
 ================
 
-Swift Conditional Optional Chaining is an extension that provides convenient syntax chaining for Optionals.
+**IDE:** Xcode 6 Beta 4
+
+**Language:** Swift
+
+**Date:** 7/24/2014
+
+Swift Conditional Optional Chaining is an extension that provides convenient syntax chaining for Optionals. Follow these simple steps to start:
 
 * Add OptionalChaining.swift to your project
 
@@ -27,3 +33,4 @@ Swift Conditional Optional Chaining is an extension that provides convenient syn
 * Result
 
 		950 packages shipped
+		
