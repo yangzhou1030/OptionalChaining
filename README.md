@@ -25,10 +25,16 @@ Swift Conditional Optional Chaining is an extension that provides convenient syn
 		testing = true
 		packages = 950
 		
-		// Cool
-		if planning?.then(analyzing)?.then(coding)?.then(testing)?.then(packages) {
-		    println("\(packages!) packages shipped")
-		}
+		// Normally we want to check if variables are nil use this
+        if planning && analyzing && coding && testing && packages {
+            println("\(packages!) packages shipped")
+        }
+        
+        // Instead we write this
+        // Why? Because this is readable
+        if planning?.then(analyzing)?.then(coding)?.then(testing)?.then(packages) {
+            println("\(packages!) packages shipped")
+        }
 
 * Result
 
